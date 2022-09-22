@@ -24,3 +24,7 @@ Route::get('/home', function () {
 Route::get('/welcome', function () {
     return view('welcome', [ 'name' => "Jason"]);
 });
+
+Route::get('/about', function () {
+    return view('about', [ 'name' => "Jason"]);
+});
